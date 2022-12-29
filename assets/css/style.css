@@ -717,6 +717,7 @@ section {
 # My Services
 --------------------------------------------------------------*/
 .services .icon-box {
+  margin: auto;
   padding: 30px;
   position: relative;
   overflow: hidden;
