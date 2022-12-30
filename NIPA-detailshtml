@@ -96,27 +96,13 @@
 
           <div class="col-lg-8">
             <div class="portfolio-details-slider swiper">
-              <div class="swiper-wrapper align-items-center">
+              <div class=" align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/3d1.jpg" alt="">
+                  <img src="assets/img/portfolio/nipa.jpg" alt="">
                 </div>
 
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/3d2.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/3d3.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/3d4.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/3d5.jpg" alt="">
-                </div>
+              
 
               </div>
               <div class="swiper-pagination"></div>
@@ -127,8 +113,10 @@
             <div class="portfolio-info">
               <h3>Information</h3>
               <ul>
-                <li><strong>Category</strong>: 3D프린터</li>
-                <li>3D프린터를 활용</li>
+                <li><strong>Category</strong>: Deeplearning</li>
+                <li>1. VM코드 지속가동</li>
+                <li>2. 초거대 슈퍼 컴퓨터 NIPA 사용하여 학습 후 추론</li>
+                
               </ul>
             </div>
             
@@ -144,8 +132,7 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <h3>Laura Thomson</h3>
-      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <h3>안진혁</h3>
       <div class="social-links">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
