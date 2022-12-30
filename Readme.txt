@@ -1,6 +1,1 @@
-Thanks for downloading this template!
-
-Template Name: Laura
-Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+개발자 안진혁의 포트폴리오
