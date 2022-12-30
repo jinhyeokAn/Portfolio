@@ -1392,7 +1392,7 @@ section {
 }
 
 #close{
-  position: relative; top: 65%; left: 39%;padding: .7rem;
+  position: relative; top: 50%; left: 39%;padding: .7rem;
 }
 @media screen and (max-width:990px){
 #hero {
