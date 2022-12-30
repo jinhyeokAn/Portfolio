@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
   <meta charset="utf-8">
@@ -32,9 +32,18 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <!-- 팝업 -->
+  
+
 </head>
 
 <body>
+
+ <!-- 팝업 -->
+ <div id="popup" style="position : fixed; width: 100%; height: 100%; background: rgba(2, 2, 2,0.8); z-index: 9999;"><div style="z-index: 9999; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 40%; height: 40%; padding: 3rem; position: relative; background: rgb(187, 187, 187);">
+  <div style="position: relative; top: 50%; left: 50%; transform: translate(-50%,-50%);">피드백 환영합니다(수정중..)</div>
+  <button id="close" style="position: relative; top: 65%; left: 39%;padding: auto;">닫기</button>
+</div></div>
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex justify-content-center align-items-center header-transparent">
@@ -44,7 +53,7 @@
         <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
         <li><a class="nav-link scrollto" href="#about">About</a></li>
         <li><a class="nav-link scrollto" href="#resume">Resume</a></li>
-        <li><a class="nav-link scrollto" href="#services">Services</a></li>
+        <li><a class="nav-link scrollto" href="#services">Skill</a></li>
         <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
         <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
@@ -69,6 +78,9 @@
     </nav><!-- .navbar -->
 
   </header><!-- End Header -->
+
+
+
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
@@ -568,9 +580,17 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!--  -->
+  <script src="https://code.jquery.com/jquery-3.6.3.slim.js" integrity="sha256-DKU1CmJ8kBuEwumaLuh9Tl/6ZB6jzGOBV/5YpNE2BWc=" crossorigin="anonymous"></script>
+  <script>
+    $("#close").click(function(){
+      $("#popup").css("display","none");
+    });
+  </script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  
 
 </body>
 
