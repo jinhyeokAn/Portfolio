@@ -1389,3 +1389,13 @@ section {
   height: 1000px;
   overflow: hidden;
 }
+
+@media screen and (min-width:0px) and (max-width:600px){
+  #hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url(../img/hero-bg.jpg) right center / cover;
+}
+
+}
